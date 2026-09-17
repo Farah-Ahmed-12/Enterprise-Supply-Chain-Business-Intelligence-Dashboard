@@ -58,10 +58,19 @@ The solution consists of **8 analytical dashboard pages** covering **231K+ order
 
 ## Data & Analytics
 
-- Built **6 SQL Server analytical views** to prepare and structure the data for Power BI.
-- Developed custom **DAX measures** for sales performance, profitability, inventory risk, supplier performance, order fulfillment, and financial analysis.
-- Performed data transformation and cleansing using **Power Query**.
-- Created interactive Power BI dashboards with **drill-through, cross-filtering, and custom tooltips**.
+* Built **6 SQL Server analytical views** to prepare and structure data for Power BI:
+
+  * `vw_sales_analysis` — Sales, customer, product, geographic, and salesperson analysis.
+  * `vw_Order_Delivery_Analysis` — Order, delivery, customer, product, and salesperson analysis.
+  * `vw_Product_Inventory_Analysis` — Product and inventory stock-level analysis.
+  * `vw_Purchase_Supplier_Analysis` — Purchasing activity and supplier performance analysis.
+  * `vw_Stock_Movement_Analysis` — Stock movements by product, customer, supplier, and transaction type.
+  * `vw_Financial_Transaction_Analysis` — Financial transactions, customers, suppliers, payment methods, and transaction types.
+
+* Developed custom **DAX measures** for sales performance, profitability, inventory risk, supplier performance, order fulfillment, and financial analysis
+* Performed data transformation and cleansing using **Power Query**.
+* Created interactive Power BI dashboards with **drill-through, cross-filtering, and custom tooltips**.
+
 
 ## Dashboard Pages
 
